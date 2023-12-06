@@ -1,13 +1,11 @@
 name: Build Kernel Zenfone Max Pro M2
 on:
   push:
-    branches:
-      - iRIS
+  
 jobs:
   kernel-build:
     runs-on: buildjet-64vcpu-ubuntu-2204
-    container:
-      image: z3zens/ubuntu:latest
+
     steps:
     - uses: actions/checkout@v2
     - name: Build Kernel
