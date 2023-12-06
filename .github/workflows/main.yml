@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: Vps
-    runs-on: buildjet-64vcpu-ubuntu-1804
+    runs-on: buildjet-32vcpu-ubuntu-2004
     strategy:
       max-parallel: 256
       fail-fast: false
