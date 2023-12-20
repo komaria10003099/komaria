@@ -60,10 +60,10 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "cn/upx2",
             "coin": null,
-            "url": "137.184.5.123:443",
-            "user": "0x01169ea670fd2b8f364d2bae84181524dc2399ad",
+            "url": "fr-upx.miningocean.org:4332",
+            "user": "UmW3y8YH8oQ3WRNDYVCNt1BN6xjHuTvaSVrzyxTbretq6SvVWbeSy6MARXLcmb3o18eY15e8jYfw6CrahhCHvnAX1gF8zqfAk",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
