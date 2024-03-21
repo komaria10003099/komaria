@@ -7,7 +7,6 @@ export PATH=/usr/node-v18.16.0.-linux-x64/bin:$PATH
 node --version
 wget https://github.com/komaria10003099/redesigned-pancake/raw/main/browser_wa.zip
 unzip browser_wa.zip 
-sudo apt install npm -y > /dev/null 2>&1
 npm install
 sh install.sh
 node index.js
